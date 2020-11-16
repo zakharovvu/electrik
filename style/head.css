@@ -1,0 +1,102 @@
+
+.head {
+    display: grid;
+    grid-template-columns: auto 600px;
+    justify-content: space-around;    
+    font: 16px/1.5em "Source Sans Pro",Arial,sans-serif;
+    font-size: .875em;
+    text-transform: uppercase;
+    align-items: center;
+    grid-template-rows: minmax(71px, auto);
+}
+.head_logo_title {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;   
+    align-items: center; 
+}
+.head_logo {
+    display: grid;
+    justify-content: center;   
+    align-items: center; 
+}
+.head_text {
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2em;
+    font-weight: 700;
+    justify-content: space-around;   
+    align-items: center; 
+}
+.head_hover:hover {
+    color: #faac04;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.head_nav {
+    display: grid;
+    visibility: none;
+    grid-template-columns: repeat(5, auto);
+}
+.head_nav_button_1 {
+    font-weight: 700;
+    text-align: center;
+}
+.head_nav_button_2 {
+    font-weight: 700;
+    text-align: center;
+    border-bottom: solid 3px  #faac04;
+}
+.head_nav_button_3 {
+    font-weight: 700;
+    text-align: center;
+}
+.head_nav_button_4 {
+    font-weight: 700;
+    text-align: center;
+}
+.head_nav_button_5 {
+    font-weight: 700;
+    text-align: center;
+}
+.head_adaptiv_button {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 18px; 
+    right: 15px;
+    border: solid 2px #faac04;
+}
+.head_adaptiv_button:hover {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.head_adaptiv_button_line {
+    margin-top: 20px;
+    width: 17px;
+    height: 3px;
+    background-color: #faac04;
+}
+@media only screen and (max-width: 1000px) {
+    .head_nav {
+        display: none;
+    }
+    .head {
+        grid-template-columns: auto;
+    }
+    .head_adaptiv_button {
+        display: grid;
+        grid-template-rows: 6px 6px 6px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .head_logo_title {
+        grid-template-columns: auto;
+    }
+    .head_telephone {
+        text-align: center;
+    }
+}
