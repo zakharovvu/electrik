@@ -1,0 +1,27 @@
+.content_navigation {
+    background: linear-gradient(to top, rgb(88, 209, 240),#04107e );
+    color: white;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    font-family: "Exo 2",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.content_navigation_line {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color:  #faac04;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 2em;
+        
+    }
+}
