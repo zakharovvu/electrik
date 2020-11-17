@@ -1,0 +1,35 @@
+.back_call {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+      
+    font-size: 1.6em;
+    color: #444;
+    line-height: 1.2em;
+    font-family: 'Titillium Web', sans-serif;
+}
+.back_call_telefon {
+    width: 250px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.back_call_email {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.back_call_button {
+    background-color:  #faac04;
+    padding: 20px;
+    color: white;
+    font-size: 0.7em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.back_call_button:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
